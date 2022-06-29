@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header #topbar .topbar-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#header #topbar .topbar-social-list .topbar-social-list-item {
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#header #topbar .topbar-social-list .topbar-social-list-item i {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#header #topbar .topbar-social-list .topbar-social-list-item i:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white !important;
+}
+
+#header .nav-sec {
+  background-color: #0e0d0d !important;
+}
+
+#header .nav-sec .dropdown:hover .dropdown-menu {
+  display: block;
+  border-radius: 0% !important;
+}
+
+#header .nav-sec .nav-list .nav-list-item {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#header .nav-sec .nav-list .nav-list-item:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: red !important;
+}
+
+#header .nav-sec .nav-list .nav-list-item:hover a {
+  color: blue !important;
+}
+
+#header #hero {
+  background-image: url(../images/hero-bg.jpg);
+  background-attachment: fixed;
+  padding: 300px 0px;
+}
+
+#pricing .pricing-card-list {
+  padding: 0;
+  list-style: none;
+}
+
+#pricing .pricing-card-list .pricing-card-list-item {
+  margin: 10px 0px;
+}
+
+#team .team-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+#team .team-social-list .team-social-list-item {
+  margin: 0px 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#team .team-social-list .team-social-list-item:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: red !important;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer .footer-info {
+  border-top: 3px solid red;
+}
+
+#footer .footer-info .footer-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+#footer .footer-info .footer-social-list .footer-social-list-item {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-info .footer-social-list .footer-social-list-item:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: red !important;
+}
+/*# sourceMappingURL=style.css.map */

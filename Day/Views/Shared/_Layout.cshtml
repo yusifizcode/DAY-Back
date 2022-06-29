@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <section id="topbar" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex p-2">
+                        <div class="topbar-mail me-3">
+                            <i class="fa-solid fa-envelope text-danger"></i>
+                            <span class="text-secondary">
+                                info@example.com
+                            </span>
+                        </div>
+
+                        <div class="topbar-phone">
+                            <i class="fa-solid fa-mobile text-danger"></i>
+                            <span class="text-secondary">
+                                +1 5589 55488 55
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <ul class="topbar-social-list align-items-center">
+                            <li class="topbar-social-list-item">
+                                <i class="fa-brands fa-twitter text-secondary text-center me-3"></i>
+                            </li>
+                            <li class="topbar-social-list-item">
+                                <i class="fa-brands fa-facebook text-secondary text-center me-3"></i>
+                            </li>
+                            <li class="topbar-social-list-item">
+                                <i class="fa-brands fa-instagram text-secondary text-center me-3"></i>
+                            </li>
+                            <li class="topbar-social-list-item">
+                                <i class="fa-brands fa-linkedin text-secondary text-center me-3"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-sec p-0">
+            <div class="container">
+                <div class="col">
+                    <a class="navbar-brand fs-2 fw-bold" href="#">DAY</a>
+                </div>
+                <div class="col d-flex justify-content-end">
+
+                    <div class="collapse navbar-collapse justify-content-end nav-list" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-list-item p-3">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item nav-list-item p-3">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item nav-list-item p-3">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item nav-list-item dropdown p-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-list-item p-3">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="hero-title text-white">WELCOME TO DAY</h1>
+                        <h3 class="hero-desc text-white">We are team of talented designers making websites with Bootstrap</h3>
+                        <a href="" class="btn btn-outline-danger rounded-0">GET STARTED</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+        <section id="footer" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-info text-center text-white p-4 bg-dark">
+                            <h3>Day</h3>
+                            <p class="m-0">A108 Adam Street</p>
+                            <p>NY 535022, USA</p>
+                            <p><strong>Phone:</strong> +1 5589 55488 55</p>
+                            <p><strong>Email:</strong> info@example.com</p>
+
+                            <ul class="footer-social-list justify-content-center">
+                                <li class="footer-social-list-item mx-1 rounded-circle">
+                                    <i class="fa-brands fa-twitter p-2 rounded-circle shadow-sm"></i>
+                                </li>
+                                <li class="footer-social-list-item mx-1 rounded-circle">
+                                    <i class="fa-brands fa-twitter p-2 rounded-circle shadow-sm"></i>
+                                </li>
+                                <li class="footer-social-list-item mx-1 rounded-circle">
+                                    <i class="fa-brands fa-twitter p-2 rounded-circle shadow-sm"></i>
+                                </li>
+                                <li class="footer-social-list-item mx-1 rounded-circle">
+                                    <i class="fa-brands fa-twitter p-2 rounded-circle shadow-sm"></i>
+                                </li>
+                                <li class="footer-social-list-item mx-1 rounded-circle">
+                                    <i class="fa-brands fa-twitter p-2 rounded-circle shadow-sm"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8"></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>

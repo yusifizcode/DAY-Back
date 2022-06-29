@@ -1,0 +1,37 @@
+﻿@model TeamMember
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="card p-4 shadow">
+    <div class="team-member-img d-flex justify-content-center">
+        <img src="~/assets/images/team-1.jpg" class="card-img-top rounded-circle w-50" alt="...">
+    </div>
+    <div class="card-body text-center">
+        <h5 class="card-title m-0">@Model.FullName</h5>
+        <span class="card-desc fw-light">@Model.Profession</span>
+        <i class="card-text mt-3 fw-medium d-block text-secondary">@Model.Desc</i>
+
+        <ul class="team-social-list justify-content-center mt-3 mb-0 text-secondary">
+            <li class="team-social-list-item">
+                <a href="@Model.TwitterUrl"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="team-social-list-item">
+                <a href="@Model.FacebookUrl"><i class="fa-brands fa-twitter"></i></a>
+
+            </li>
+            <li class="team-social-list-item">
+                <a href="@Model.InstagramUrl"><i class="fa-brands fa-twitter"></i></a>
+
+            </li>
+            <li class="team-social-list-item">
+                <a href="@Model.LinkedinUrl"><i class="fa-brands fa-twitter"></i></a>
+
+            </li>
+        </ul>
+
+        <form method="post" asp-action="delete">
+            <button type="submit" class="text-danger">Delete</button>
+        </form>
+    </div>
+</div>

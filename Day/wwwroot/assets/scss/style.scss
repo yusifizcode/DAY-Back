@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    #topbar{
+        .topbar-social-list{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+    
+            .topbar-social-list-item{
+                cursor: pointer;
+                transition: all 0.3s;
+    
+                i{
+                    transition: all 0.3s;
+                }
+    
+                & i:hover{
+                    transition: all 0.3s;
+                    color: white !important;
+                }
+            }
+        }
+    }
+
+    .nav-sec{
+        background-color: rgb(14, 13, 13) !important;
+
+        .dropdown{
+            &:hover{
+                .dropdown-menu{
+                    display: block;
+                    // left: -10px;
+                    border-radius: 0% !important;
+                }
+            }
+        }
+
+        .nav-list{
+
+            .nav-list-item{
+                transition: all 0.3s;
+                &:hover{
+                    transition: all 0.3s;
+                    background-color: red !important;
+                    a{
+                        color: blue !important;
+                    }
+                }                
+            }
+        }
+    }
+
+    #hero{
+        background-image: url(../images/hero-bg.jpg);
+        background-attachment: fixed;
+        padding: 300px 0px;
+    }
+}
+
+#pricing{
+    .pricing-card-list{
+        padding: 0;
+        list-style: none;
+        .pricing-card-list-item{
+            margin: 10px 0px;
+        }
+    }
+}
+
+#team{
+    .team-social-list{
+        display: flex;
+        padding: 0;
+        list-style: none;
+        .team-social-list-item{
+            margin: 0px 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover{
+                transition: all 0.3s;
+                color: red !important;
+
+            }
+        }
+    }
+}
+
+#footer{
+    background-color: black;
+    .footer-info{
+        border-top: 3px solid red;
+        .footer-social-list{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            .footer-social-list-item{
+                transition: all 0.3s;
+                cursor: pointer;
+                &:hover{
+                    transition: all 0.3s;
+                    background-color: red !important;
+                }
+            }
+        }
+    }
+}
